@@ -1,0 +1,25 @@
+<body>
+<div><h1>Lista de Nomes</h1></div>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<div>
+<ul style=
+"font-size: 35px">
+<li>Maria</li>
+<li>Maria</li>
+<li>Marcos</li>
+<li>Aline</li>
+<li>Adriana</li>
+</ul>
+</div>
+<div>
+<button id=
+"btn">Click aqui</button>
+</div>
+<script>
+$('#btn').on("click",botao) // Ao clicar no botão a lista ficara azul
+function botao(){
+$('li').css({'color':'blue'})
+}
+</script>
+</body>
+</html>
